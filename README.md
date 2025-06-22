@@ -66,10 +66,27 @@ poetry run task format
 
 ```
 fast-zero/
+├── migrations/
+│   └── versions/
+│       └── 46eaae30d094_create_users_table.py
+│   └── env.py
+│   └── README.md
+│   └── script.py.mako
 ├── src/
 │   └── fast_zero/
 │       └── app.py
+│       └── models.py
+│       └── schemas.py
+│       └── settings.py
 ├── tests/
+│   └── conftest.py
+│   └── test_app.py
+│   └── test_models.py
+├── .env.example
+├── .gitignore
+├── .python-version
+├── alembic.ini
+├── poetry.lock
 ├── pyproject.toml
 └── README.md
 ```
